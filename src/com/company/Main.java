@@ -14,6 +14,7 @@ public class Main {
         @Override
         public void run() {
             try {
+                Thread.sleep(3000L);
                 Thread.sleep(2000L);
             } catch (InterruptedException e) {
                 System.out.println("Interrupted");
@@ -25,9 +26,10 @@ public class Main {
                 {
                     break;
                 }
-                //System.out.println(System.currentTimeMillis());
+                System.out.println(System.currentTimeMillis());
             }
             System.out.println("The task is finished :" + (stopTimestamp - System.currentTimeMillis()));
+            System.out.println("The task is started :" + (stopTimestamp - System.currentTimeMillis()));
         }
     };
 
