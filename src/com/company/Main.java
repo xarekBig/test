@@ -15,6 +15,7 @@ public class Main {
         public void run() {
             try {
                 Thread.sleep(2000L);
+                Thread.sleep(2000L);
             } catch (InterruptedException e) {
                 System.out.println("Interrupted");
                 Thread.currentThread().interrupt();
