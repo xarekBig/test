@@ -26,9 +26,10 @@ public class Main {
                 {
                     break;
                 }
-                //System.out.println(System.currentTimeMillis());
+                System.out.println(System.currentTimeMillis());
             }
             System.out.println("The task is finished :" + (stopTimestamp - System.currentTimeMillis()));
+            System.out.println("The task is started :" + (stopTimestamp - System.currentTimeMillis()));
         }
     };
 
