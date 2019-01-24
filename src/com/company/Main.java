@@ -14,7 +14,7 @@ public class Main {
         @Override
         public void run() {
             try {
-                Thread.sleep(2000L);
+                Thread.sleep(3000L);
             } catch (InterruptedException e) {
                 System.out.println("Interrupted");
                 Thread.currentThread().interrupt();
